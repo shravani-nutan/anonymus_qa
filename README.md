@@ -36,6 +36,25 @@ College Q&A platform — simple Node/Express backend and React frontend.
 - The frontend expects the API at `http://localhost:8081/api` by default.
 - Add a `.env` file for any environment-specific variables (and avoid checking it in).
 
+## Submodules
+
+The frontend is included as a nested Git repository at `qa_frontend/college-qa-frontend` (kept as a submodule reference in this repo). To clone and initialize submodules:
+
+```bash
+# clone with submodules
+git clone --recurse-submodules https://github.com/shravani-nutan/anonymus_qa.git
+# or, after a normal clone, initialize and fetch submodules
+git submodule update --init --recursive
+```
+
+To update the submodule to the latest commit in its remote:
+
+```bash
+git submodule update --remote --merge
+```
+
+---
+
 ## License
 
 MIT
