@@ -1,45 +1,24 @@
-# college-qa-frontend
-
-## Available Scripts
+college-qa-frontend
+Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+npm start
 
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Runs the app in development mode at http://localhost:3000
+. The page reloads on changes.
 
-The page will reload when you make changes. You may also see any lint errors in the console.
+npm run build
 
-### `npm test`
+Builds the app for production in the build folder.
 
-Launches the test runner in the interactive watch mode.
+npm test
 
-### `npm run build`
+Runs tests in interactive watch mode.
 
-Builds the app for production to the `build` folder. The build is minified and the filenames include the hashes. Your app is ready to be deployed!
+npm run eject
 
-See Create React App docs for more information: https://facebook.github.io/create-react-app/docs/getting-started
+Ejects the app for full configuration control. Warning: This is irreversible.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For more details, see Create React App Docs
+.
