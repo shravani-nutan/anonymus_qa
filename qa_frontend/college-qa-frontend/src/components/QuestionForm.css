@@ -1,0 +1,9 @@
+.question-form input, .question-form textarea {
+  width:100%;
+  padding:8px 10px;
+  margin:6px 0 10px 0;
+  border:1px solid #e6e6e6;
+  border-radius:6px;
+}
+
+.question-form button{background:var(--PRIMARY);color:#fff;border:none;padding:8px 12px;border-radius:6px;cursor:pointer}

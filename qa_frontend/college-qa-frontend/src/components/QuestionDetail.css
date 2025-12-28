@@ -1,0 +1,7 @@
+/* Question detail and answers */
+.question-detail h2{margin-top:0}
+.question-detail p{margin:6px 0 14px}
+.answer-list{list-style:none;padding:0;margin:0}
+.answer-list li{background:#fff;padding:10px;border-radius:6px;margin-bottom:8px}
+.answer-actions{margin-top:8px}
+.answer-actions button{margin-right:8px}

@@ -1,0 +1,48 @@
+/* Base simple styles */
+:root{
+  --BG: #f7fafc;
+  --CARD: #ffffff;
+  --PRIMARY: #2563eb;
+  --ACCENT: #06b6d4;
+  --TEXT: #111827;
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: var(--BG);
+  color: var(--TEXT);
+}
+
+.App.container{
+  max-width:1000px;
+  margin:32px auto;
+  padding:24px;
+}
+
+h1{font-size:1.8rem;margin:0 0 18px}
+
+/* Utility */
+.card{
+  background: var(--CARD);
+  border-radius:8px;
+  padding:16px;
+  box-shadow: 0 2px 8px rgba(16,24,40,0.06);
+}
+
+/* Links / buttons */
+.btn{
+  background: var(--PRIMARY);
+  color: white;
+  border: none;
+  padding:8px 12px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.btn.secondary{
+  background: #e5e7eb;
+  color: var(--TEXT);
+}

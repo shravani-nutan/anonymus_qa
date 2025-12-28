@@ -1,0 +1,6 @@
+/* Question list styles */
+.question-list h2{margin-top:0}
+.question-list ul{list-style:none;padding:0;margin:8px 0}
+.question-list li{padding:10px;border-radius:6px;margin-bottom:8px;background:#fff;cursor:pointer;display:flex;justify-content:space-between;align-items:center}
+.question-list li:hover{box-shadow:0 2px 8px rgba(16,24,40,0.06)}
+.question-list .status{font-size:0.85rem;color:#6b7280}
